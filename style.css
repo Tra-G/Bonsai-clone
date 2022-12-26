@@ -2,6 +2,7 @@
 :root {
   --page-padding: 2rem;
   --links-color: rgba(128, 128, 128, 0.891);
+  --color-primary: rgba(51, 246, 181, 0.837);
 }
 
 /* CSS RESET */
@@ -64,6 +65,7 @@ nav .navBrand {
 
 /* Later Akorede will work on this */
 nav .nav-menu {
+  display: none
 }
 
 /* Button*/
@@ -116,5 +118,32 @@ nav .nav-menu {
     font-weight: 700;
 }
 .nav-menu li:hover {
-
+  
 }
+
+.section1{
+  padding-top: 50px;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.section1 h1{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+span{
+  font-size: 35px;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+.section-text{
+  font-size: 17px;
+}
+
+.second-letter{
+  color: var(--color-primary);
+}
+
