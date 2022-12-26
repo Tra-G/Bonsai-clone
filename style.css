@@ -27,7 +27,7 @@
   cursor: pointer;
 }
 .btn:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 /* Element styling */
@@ -55,7 +55,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   position: relative;
-
 }
 
 nav .navBrand {
@@ -65,7 +64,7 @@ nav .navBrand {
 
 /* Later Akorede will work on this */
 nav .nav-menu {
-  display: none
+  display: none;
 }
 
 /* Button*/
@@ -104,46 +103,56 @@ nav .hamburger.active .bar:nth-child(3) {
   transform: translateY(-9px) rotate(-45deg);
 }
 nav .nav-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color:;
-    margin-top: 50px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: ;
+  margin-top: 50px;
 }
 .nav-menu li {
-    padding: 25px 20px;
-    font-size: 20px;
-    color: var(--links-color);
-    font-weight: 700;
+  padding: 25px 20px;
+  font-size: 20px;
+  color: var(--links-color);
+  font-weight: 700;
 }
 .nav-menu li:hover {
-  
 }
 
-.section1{
+.section1 {
   padding-top: 50px;
   width: 350px;
   margin: 0 auto;
 }
 
-.section1 h1{
+.section1 h1 {
   text-align: center;
   font-size: 35px;
   font-weight: bolder;
 }
 
-span{
+span {
   font-size: 35px;
   font-weight: bolder;
   display: inline-block;
 }
 
-.section-text{
+.section-text {
   font-size: 17px;
 }
 
-.second-letter{
+.second-letter {
   color: var(--color-primary);
 }
 
+/* Brand Image Styling: Emeka */
+section.hero-image-wrapper {
+  width: 80%;
+  margin: 5.5rem auto;
+}
+
+section.hero-image-wrapper .hero-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 22px;
+}
