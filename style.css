@@ -1,6 +1,7 @@
 /* VARIABLES*/
 :root {
   --page-padding: 2rem;
+  --links-color: rgba(128, 128, 128, 0.891);
 }
 
 /* CSS RESET */
@@ -14,12 +15,18 @@
 .btn {
   outline: none;
   border: none;
-  background-color: rgb(17, 177, 177);
-  color: #ffffff;
+  background-color: rgba(51, 246, 181, 0.837);
   font-size: 1.2rem;
   font-weight: bold;
   padding: 15px 20px;
   border-radius: 50px;
+  color: #fff;
+  width: 100%;
+  transition: all 0.7s linear;
+  cursor: pointer;
+}
+.btn:hover {
+    transform: scale(1.03);
 }
 
 /* Element styling */
@@ -46,6 +53,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+
 }
 
 nav .navBrand {
@@ -59,7 +68,7 @@ nav .nav-menu {
 
 /* Button*/
 nav .btn {
-  display: none;
+  display: ;
 }
 
 /* Hamburger styles*/
@@ -91,4 +100,21 @@ nav .hamburger.active .bar:nth-child(1) {
 }
 nav .hamburger.active .bar:nth-child(3) {
   transform: translateY(-9px) rotate(-45deg);
+}
+nav .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color:;
+    margin-top: 50px;
+}
+.nav-menu li {
+    padding: 25px 20px;
+    font-size: 20px;
+    color: var(--links-color);
+    font-weight: 700;
+}
+.nav-menu li:hover {
+
 }
