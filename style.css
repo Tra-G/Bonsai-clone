@@ -1,0 +1,64 @@
+/* VARIABLES*/
+:root {
+    --page-padding: 2rem;
+}
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Styling*/
+.btn {
+    outline: none;
+    border: none;
+    background-color: rgb(17, 177, 177);
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+/* Element styling */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER STYLNG */
+/* Navigation */
+
+nav {
+    outline: 1px solid red;
+    height: 5rem;
+    padding-inline: var(--page-padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .navBrand {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Later Akorede will work on this */
+nav .nav-menu {
+    display: none;
+}
+
+/* Button*/
+nav .btn {
+    display: none;
+}
